@@ -7,27 +7,41 @@
     "lint": "eslint source"
   },
   "dependencies": {
+    "@sanity/client": "^3.3.0",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "@web3auth/web3auth": "^1.0.0-alpha.0",
+    "chart.js": "^3.7.1",
+    "gun": "^0.2020.1237",
+    "magic-sdk": "^8.1.1",
+    "netlify-cli": "^10.3.1",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-chartjs-2": "^4.1.0",
+    "react-dom": "^18.1.0",
+    "react-switch": "^6.0.0",
+    "web3uikit": "^0.1.144"
   },
   "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
-    "autoprefixer": "^10.4.0",
-    "eslint": "^8.15.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-supermind": "^0.48.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "postcss": "^8.4.5",
-    "prettier": "^2.5.1",
+    "postcss": "^8.4.13",
+    "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.1",
-    "tailwindcss": "^3.0.7",
+    "tailwindcss": "^3.0.24",
     "typescript": "4.5.4"
   }
 }
