@@ -7,6 +7,7 @@
     "lint": "eslint source"
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^12.1.6",
     "@sanity/client": "^3.3.0",
     "@walletconnect/web3-provider": "^1.7.8",
     "@web3auth/web3auth": "^1.0.0-alpha.0",
@@ -18,6 +19,7 @@
     "react": "^17.0.2",
     "react-chartjs-2": "^4.1.0",
     "react-dom": "^18.1.0",
+    "react-moralis": "^1.3.5",
     "react-switch": "^6.0.0",
     "web3uikit": "^0.1.144"
   },
